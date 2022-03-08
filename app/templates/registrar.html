@@ -1,0 +1,40 @@
+{% extends 'base.html'%}
+{%block conteudo%}
+
+<h3> Informe seus dados para registrar seu usuario</h3>
+<form action=""method="post">
+
+    <div class="row mb-3"></div>
+    <label class="col-sm-2 col-form-label">Usuario</label>: 
+    <div class="col-sm-10">
+    <input type="text" class="form-control" name="usuario"><br/>
+    </div>
+    </div>
+
+    <div class="row mb-3"></div>
+    <label class="col-sm-2 col-form-label">E-mail: </label>
+    <div class="col-sm-10">
+    <input type="email" class="form-control" name="email"><br/>
+    </div>
+    </div>
+
+    <div class="row mb-3"></div>
+    <label class="col-sm-2 col-form-label">Senha: </label>
+    <div class="col-sm-10">
+    <input type="passeword" class="form-control" name="senha"><br/>
+    </div>
+    </div>
+
+    <div class="row mb-3"></div>
+    <label class="col-sm-2 col-form-label">Confirmar senha:</label>
+    <div class="col-sm-10">
+    senha: <input type="password" class="form-control" name="confsenha"><br/>
+    </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Registrar</button>
+</form>
+
+    
+
+{%endblock%}
